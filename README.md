@@ -26,11 +26,11 @@ The board supports a dual-power architecture (Li-Ion Battery and USB Type-C):
 
 ## 2. Board Renders & Schematics
 
-<img width="885" height="733" alt="3d" src="https://github.com/user-attachments/assets/aa6a9191-47b6-4cde-9777-d965ea38815c" />
+<img width="901" height="745" alt="3d" src="https://github.com/user-attachments/assets/2f8b50d7-6406-4284-8744-9ec1f59aee66" />
 
-<img width="765" height="690" alt="3d_back" src="https://github.com/user-attachments/assets/3291196e-ac92-4987-aaae-fbd524505a55" />
+<img width="779" height="707" alt="3d_back" src="https://github.com/user-attachments/assets/9974d829-9c26-41bf-b770-dec37e12e9fa" />
 
-<img width="3509" height="2481" alt="schematic" src="https://github.com/user-attachments/assets/aae74e79-95c6-40bb-a03b-cecd99c01741" />
+<img width="3509" height="2481" alt="schematic" src="https://github.com/user-attachments/assets/6566c517-1350-4349-b34f-9b56dd708481" />
 
 ## 3. PCB Layout & Design Considerations
 
@@ -39,15 +39,16 @@ Special attention was given to the mixed-signal nature of this board to prevent 
 *   **Layer Stackup (2-Layer Design):** The board is designed as a standard 2-layer PCB. The top layer is primarily dedicated to signal routing and component placement, while the bottom layer is utilized to maintain maximum signal integrity.
 *   **Component Placement & Analog Isolation:** The analog measuring circuitry (Op-Amp and scaling resistors) is strictly grouped in the bottom-left corner of the PCB. Physical distance is used as the primary isolator. This prevents high-frequency digital return currents (from the MCU, crystal oscillator, and USB) from crossing into the sensitive analog region.
 *   **Solid Ground Plane (No Split-Ground):** Instead of splitting the ground into `AGND` and `DGND` (which can create loop antennas and EMI issues if traces cross the gap), a single, continuous ground plane is poured across the entire bottom layer. Because the components are properly partitioned by physical distance, the analog and digital return currents naturally follow their paths of least impedance without interfering with each other.
+*   **Via Stitching & EMI Shielding:** To further improve signal integrity, the empty areas on the top layer are poured with a GND polygon and aggressively stitched to the bottom ground plane using an extensive via network. This eliminates floating "dead copper" islands that could act as antennas, minimizes overall ground impedance, and creates a Faraday cage effect to shield the internal traces from external noise.   
 *   **Trace Clearances:** The board follows strict width and clearance constraints (minimum 0.254mm / 10 mils) to ensure manufacturability and prevent solder mask sliver issues.
 
 ### Layer Views
 
-<img width="854" height="761" alt="layers" src="https://github.com/user-attachments/assets/e72f97a7-3e20-47be-8020-13ff69a20029" />
+<img width="815" height="752" alt="layers" src="https://github.com/user-attachments/assets/5d1b2bd9-45ca-47d7-828e-6ea65d015bcb" />
 
-<img width="841" height="732" alt="layer1" src="https://github.com/user-attachments/assets/c7104abc-3fc8-4588-bea2-d08c1629bec3" />
+<img width="818" height="733" alt="layer1" src="https://github.com/user-attachments/assets/1ef90a41-22b4-41b8-84ae-949a12cc7c96" />
 
-<img width="840" height="762" alt="layer2" src="https://github.com/user-attachments/assets/3166f7c8-0c08-445c-99dd-ce0aac3c97ef" />
+<img width="858" height="742" alt="layer2" src="https://github.com/user-attachments/assets/d0d9b527-cac1-402d-bd1a-ab7fb6c1a0a6" />
 
 ## 4. Bill of Materials (Key Components)
 
