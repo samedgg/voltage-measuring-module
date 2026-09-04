@@ -44,9 +44,9 @@ Special attention was given to the mixed-signal nature of this board to prevent 
 
 ### Layer Views
 
-<img width="815" height="752" alt="layers" src="https://github.com/user-attachments/assets/5d1b2bd9-45ca-47d7-828e-6ea65d015bcb" />
+<img width="719" height="732" alt="3d" src="https://github.com/user-attachments/assets/749b0b48-54a5-4324-aa89-ccdc3766cfa6" />
 
-<img width="818" height="733" alt="layer1" src="https://github.com/user-attachments/assets/1ef90a41-22b4-41b8-84ae-949a12cc7c96" />
+<img width="679" height="637" alt="3d_back" src="https://github.com/user-attachments/assets/1213858c-f0aa-4454-b70b-1e317078af81" />
 
 <img width="858" height="742" alt="layer2" src="https://github.com/user-attachments/assets/d0d9b527-cac1-402d-bd1a-ab7fb6c1a0a6" />
 
