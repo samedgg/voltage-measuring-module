@@ -1,4 +1,4 @@
-# Voltage Measuring Module
+<img width="679" height="637" alt="3d_back" src="https://github.com/user-attachments/assets/057e6cfe-fbcb-4394-b20c-b81f6e268a2b" /># Voltage Measuring Module
 
 This repository contains the hardware design files for a custom mixed-signal PCB module that functions as a digital multimeter interface. The primary purpose of this board is to safely measure external potential differences using control probes, process the scaled voltage via a microcontroller, and display the results on an external screen.
 
@@ -26,9 +26,9 @@ The board supports a dual-power architecture (Li-Ion Battery and USB Type-C):
 
 ## 2. Board Renders & Schematics
 
-<img width="901" height="745" alt="3d" src="https://github.com/user-attachments/assets/2f8b50d7-6406-4284-8744-9ec1f59aee66" />
+<img width="719" height="732" alt="3d" src="https://github.com/user-attachments/assets/612135b3-76c4-4576-a170-acf2c8664b93" />
 
-<img width="779" height="707" alt="3d_back" src="https://github.com/user-attachments/assets/9974d829-9c26-41bf-b770-dec37e12e9fa" />
+<img width="679" height="637" alt="3d_back" src="https://github.com/user-attachments/assets/d0887b14-e3bc-4fa5-a1b6-eb770bb5daa7" />
 
 <img width="3509" height="2481" alt="schematic" src="https://github.com/user-attachments/assets/6566c517-1350-4349-b34f-9b56dd708481" />
 
