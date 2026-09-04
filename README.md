@@ -26,11 +26,11 @@ The board supports a dual-power architecture (Li-Ion Battery and USB Type-C):
 
 ## 2. Board Renders & Schematics
 
-<img width="885" height="733" alt="3d" src="https://github.com/user-attachments/assets/e29caf7a-c5ce-4593-b387-93ea9cdc987c" />
+<img width="885" height="733" alt="3d" src="https://github.com/user-attachments/assets/aa6a9191-47b6-4cde-9777-d965ea38815c" />
 
-<img width="765" height="690" alt="3d_back" src="https://github.com/user-attachments/assets/af605f01-6f3a-4ca8-b7d2-d61967d4a1b1" />
+<img width="765" height="690" alt="3d_back" src="https://github.com/user-attachments/assets/3291196e-ac92-4987-aaae-fbd524505a55" />
 
-<img width="3509" height="2481" alt="schematic" src="https://github.com/user-attachments/assets/53ff5cf3-80cf-42c0-9de3-4f7af18ce462" />
+<img width="3509" height="2481" alt="schematic" src="https://github.com/user-attachments/assets/aae74e79-95c6-40bb-a03b-cecd99c01741" />
 
 ## 3. PCB Layout & Design Considerations
 
@@ -43,11 +43,11 @@ Special attention was given to the mixed-signal nature of this board to prevent 
 
 ### Layer Views
 
-<img width="854" height="761" alt="layers" src="https://github.com/user-attachments/assets/27ac2d13-0ee3-47e8-a4a3-4f9cf44c2606" />
+<img width="854" height="761" alt="layers" src="https://github.com/user-attachments/assets/e72f97a7-3e20-47be-8020-13ff69a20029" />
 
-<img width="841" height="732" alt="layer1" src="https://github.com/user-attachments/assets/7e1c4631-c2c1-4c0d-ab5e-8432c6473c2b" />
+<img width="841" height="732" alt="layer1" src="https://github.com/user-attachments/assets/c7104abc-3fc8-4588-bea2-d08c1629bec3" />
 
-<img width="840" height="762" alt="layer2" src="https://github.com/user-attachments/assets/2ae0c335-c5d6-41f4-a89a-1e2aa5421aaf" />
+<img width="840" height="762" alt="layer2" src="https://github.com/user-attachments/assets/3166f7c8-0c08-445c-99dd-ce0aac3c97ef" />
 
 ## 4. Bill of Materials (Key Components)
 
